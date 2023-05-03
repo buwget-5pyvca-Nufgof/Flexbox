@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500;1,700&display=swap');
+.body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.header{
+    display: grid;
+grid-template-rows:  2fr 5fr;
+height: 700px;
+
+}
+h1{
+    font-family: "Roboto";
+    font-style: italic;
+}
+.header-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 60px;
+    font-size: small;
+    background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+    justify-items: center;
+    align-items: center;
+}
+.header-nav_link{
+    text-decoration: none;
+    color: white;
+    
+}
+.header2{
+    
+    display: grid;
+    grid-template-columns:  8% 1fr 40%;
+    margin:  30px;
+    grid-template-rows: 5px;
+    
+      
+}
+.header-text{
+    display: grid;
+    margin:  30px;
+position: relative;
+font-family: "Roboto";
+
+}
+.picture{
+
+    align-content: center;
+width: 100px;
+justify-self: center;
+}
+.heder_2{
+    display: grid;
+grid-template-columns: 1fr  1fr 1fr;
+
+
+}
+.heder_2-nav_link{
+    text-decoration: none;
+    color: #737373;
+    
+}
+
+
+.main{
+    display: grid;
+}
+.picture1{
+    width: 745px;
+    height: 522px;
+    right: 255px;
+    bottom:  200px;
+    position: relative;
+   
+}
+.picture2{
+    width: 533px;
+    height: 686px;
+    right: 155px;
+    bottom: 750px;
+    position: relative;
+
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+ 
+}
+.main_main{
+    display: grid;
+    grid-template-columns:363px 363px 363px ;
+    margin: 30px;
+    background-image: url("Photo/for_fone.png");
+    background-repeat: no-repeat;
+    background-size: 700px 600px;
+justify-content: space-around;
+font-family: "Roboto";
+}
+.mat,
+.otl,
+.color{
+    background-color: white;
+    border-radius: 10%;
+    border:2px double violet;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(231, 106, 194);
+}
+
+.otzivi{
+    display: grid;
+    grid-template-columns: 344px 344px 344px;
+    grid-template-rows: 187px;
+    margin: 30px;
+    gap: 7px;
+    align-content: space-around;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    height: 360px;
+    justify-content: space-around;
+   
+}
+.otziv1,
+.otziv2,
+.otziv3{
+    display: grid;
+    background-color: white;
+    align-content: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 382px;
+    align-content: center;
+    margin: 30px;
+    gap: 7px;
+    
+}
+.socseti,
+.contakt,
+.about{
+    display: grid;
+    justify-content: center;
+}
+.button{
+background:linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+padding-bottom: 30px;
+text-decoration: none;
+color: white;
+}
